@@ -1,15 +1,18 @@
 class Main
-
-  def initialize
-    @a = 1
+  attr_reader :a, :b
+  def initialize(a, b, c)
+    @a = a
+    @b = b + c
   end
 
   def foo
-    puts 'foo'
+    puts 'aaa'
+    puts @a
   end
 
-  def self.bar
-    puts 'bar'
+  def bar
+    puts 'bbb'
+    puts @b
   end
 
   def name
