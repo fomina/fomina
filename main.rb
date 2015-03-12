@@ -17,5 +17,14 @@ class Main
 
   def name
     puts self.class.name
+  end 
+  
+  def foo_1
+    b=17
+    puts "number x"
+  end
+  
+  def foo_2
+    puts "summ:"
   end
 end
