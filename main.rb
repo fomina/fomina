@@ -8,6 +8,8 @@ class Main
   def foo
     puts 'aaa'
     puts @a
+    a=4
+    puts "your number is #{a}"
   end
 
   def bar
@@ -18,4 +20,18 @@ class Main
   def name
     puts self.class.name
   end
+
+  def foo_1
+    b=17
+    puts "number x"
+  end
+
+  def foo_2
+    puts "summ:"
+  end
+
+  def foo_3
+    puts "1"
+  end
+
 end
