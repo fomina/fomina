@@ -10,7 +10,6 @@ class Main
     puts @a
     a=4
     puts "your number is #{a}"
-    puts 'foo'
   end
 
   def bar
@@ -33,7 +32,6 @@ class Main
 
   def foo_3
     puts "1"
-    puts "2"
   end
 
 end
