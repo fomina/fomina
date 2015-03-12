@@ -8,6 +8,9 @@ class Main
   def foo
     puts 'aaa'
     puts @a
+    a=4
+    puts "your number is #{a}"
+    puts 'foo'
   end
 
   def bar
